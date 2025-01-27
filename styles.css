@@ -1,0 +1,75 @@
+.header-image img {
+    display: block; /* Remove inline image padding */
+    margin: 0 auto; /* Center the image */
+    max-height: 45vh;
+    max-width: 75vw;
+}
+
+.header{
+    text-align: left;
+    margin-left: 5vh;
+}
+
+
+body {
+    background-color: #333; /* Dark gray background */
+    text-align: center; /* Center the text */
+    color: #fff; /* White text color for contrast */
+    font-family: Arial, sans-serif; /* Basic font family */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* White color for headings */
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+
+
+a {
+    color: #1e90ff; /* Dodger blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.intro{
+    background-color: #f0f0f0;
+    color: black;
+    margin: 0 13vh;
+    padding: 0 5vh;
+}
+
+.intro h2{
+    color: black;
+}
+
+.contact-button {
+    background-color: #1e90ff; /* Dodger blue background */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block for proper sizing */
+    font-size: 16px; /* Increase font size */
+    margin: 10px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.contact-button:hover {
+    background-color: #0c7abf; /* Darker blue on hover */
+}
+
+.header-text{
+margin-top: -7vh;
+}
