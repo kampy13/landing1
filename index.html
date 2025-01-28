@@ -7,40 +7,86 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <!-- Header Section -->
+    <header>
         <h1 class="header">Elite Edge Contracting</h1>
         <div class="header-image">
-    <img src="images/EE_1.jpg" alt="Elite Edge Contracting"></div>
-    <div class="header-text">
-        <h2>We bring your vision to life!</h2>
-        </div><div>
-        <a href="#contact" class="contact-button">Contact Us</a>
-    <h2 class= "image-text"></h2>
+            <img src="images/EE_1.jpg" alt="Elite Edge Contracting">
         </div>
-</div>
+        <div class="header-text">
+            <h2>We bring your vision to life!</h2>
+        </div>
+        <div class="cta-button">
+            <a href="#contact" class="contact-button">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
     <main>
-        <section class="intro"  >
+        <!-- Introduction Section -->
+        <section class="intro">
             <h2>Introduction</h2>
             <p class="since-text">Since 1985, Elite Edge Contracting has been performing quality residential work!</p>
             <p>Our Firm is here for your interior needs!</p>
-          
-        </section>
-        <section class="services">
-            <h2>Our Services</h2>
-        <div class="checkbox-section">
-            <ul style="list-style-type: none;">
-                <li><input type="checkbox" checked> Drywall</li>
-                <li><input type="checkbox" checked> Bathroom Tiling</li>
-                <li><input type="checkbox" checked> Carpeting</li>
-            </ul>
-        </div>
         </section>
 
-<section  id="contact">
-<h2>Contact Us</h2>
-<p>contact form here</p>
-</section>
+
+
+        <!-- Portfolio Section -->
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Here are some examples of our recent projects:</p>
+            <div class="portfolio-gallery">
+                <a href="#" class="portfolio-item">
+                    <img src="images/bathroom.webp" alt="Project 1">
+                    <p>Bathroom Renovation</p>
+                </a>
+                <a href="#" class="portfolio-item">
+                    <img src="images/open-concept.jpeg" alt="Project 2">
+                    <p>Open Concept Renovation</p>
+                </a>
+                <a href="#" class="portfolio-item">
+                    <img src="images/kitchen.jpeg" alt="Project 3">
+                    <p>Kitchen Renovation</p>
+                </a>
+            </div>
+        </section>
+                <!-- Services Section -->
+                <section class="services">
+                    <h2>Our Services</h2>
+                    <div class="checkbox-section">
+                        <ul style="list-style-type: none; padding: 0;">
+                            <li><input type="checkbox" checked> Bathrooms</li>
+                            <li><input type="checkbox" checked> Drywall</li>
+                            <li><input type="checkbox" checked> Kitchens</li>
+                            <li><input type="checkbox" checked> Carpeting</li>
+                        </ul>
+                    </div>
+                </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Please fill out the contact form below to get in touch!</p>
+            <form action="https://api.web3forms.com/submit" method="POST"   class="contact-form">
+
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="299e732f-a99d-4bd3-b1ad-9a3ffba7d0ef"
+            
+          
+                <label for="name"> Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="contact-button">Send</button>
+            </form>
+   
+        </section>
     </main>
+
+    <!-- Footer Section -->
     <footer>
         <p>&copy; 2025 Echo Summit Digital. All rights reserved.</p>
     </footer>
